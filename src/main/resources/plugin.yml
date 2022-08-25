@@ -1,0 +1,9 @@
+name: InvPeek
+version: '${project.version}'
+main: invpeek.inv_peek.Inv_peek
+api-version: 1.19
+authors: [ Siliwolf ]
+commands:
+  invpeek:
+    description: See and modify a player's inventory
+    usage: /invsee <PLAYER_NAME>
